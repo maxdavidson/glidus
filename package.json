@@ -42,7 +42,7 @@
   "devDependencies": {
     "ava": "^0.16.0",
     "coveralls": "^2.11.14",
-    "cross-env": "^3.0.0",
+    "cross-env": "^3.1.0",
     "gl": "^4.0.2",
     "nyc": "^8.3.0",
     "rimraf": "^2.5.4",
