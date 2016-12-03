@@ -4,6 +4,8 @@
     "forin": false,
     "interface-name": false,
     "max-line-length": [true, 130],
+    "max-classes-per-file": false,
+    "arrow-parens": false,
     "member-access": false,
     "member-ordering": [true, { "order": "fields-first" }],
     "only-arrow-functions": false,

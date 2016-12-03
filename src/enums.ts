@@ -1,12 +1,12 @@
 export const enum BufferType {
   ArrayBuffer = 34962,
-  ElementArrayBuffer = 34963,
+  ElementArrayBuffer = 34963
 }
 
 export const enum BufferUsage {
   StreamDraw = 35040,
   StaticDraw = 35044,
-  DynamicDraw = 35048,
+  DynamicDraw = 35048
 }
 
 export const enum BufferDataType {
@@ -14,12 +14,12 @@ export const enum BufferDataType {
   UnsignedByte = 5121,
   Short = 5122,
   UnsignedShort = 5123,
-  Float = 5126,
+  Float = 5126
 }
 
 export const enum BufferParameter {
   BufferSize = 34660,
-  BufferUsage = 34661,
+  BufferUsage = 34661
 }
 
 export const enum ContextError {
@@ -29,7 +29,7 @@ export const enum ContextError {
   InvalidOperation = 1282,
   OutOfMemory = 1285,
   InvalidFramebufferOperation = 1286,
-  ContextLost = 37442,
+  ContextLost = 37442
 }
 
 export const enum BlendEquation {
@@ -42,7 +42,7 @@ export const enum BlendEquation {
   /** Minimum of source and destination */
   Min = 32775,
   /** Maximum of source and destination */
-  Max = 32776,
+  Max = 32776
 }
 
 export const enum BlendFunction {
@@ -70,19 +70,19 @@ export const enum BlendFunction {
    * Multiplies the RGB colors by the smaller of either the source alpha color or the value
    * of 1 minus the destination alpha color. The alpha value is multiplied by 1.
    */
-  SourceAlphaSaturate = 776,
+  SourceAlphaSaturate = 776
 }
 
 export const enum CullFaceMode {
   Front = 1028,
   Back = 1029,
-  FrontAndBack = 1032,
+  FrontAndBack = 1032
 }
 
 export const enum FramebufferType {
   Framebuffer = 36160,
   ReadFramebuffer = 36008,
-  DrawFramebuffer = 36009,
+  DrawFramebuffer = 36009
 }
 
 export const enum FramebufferStatus {
@@ -90,13 +90,13 @@ export const enum FramebufferStatus {
   IncompleteAttachment = 36054,
   IncompleteMissingAttachment = 36055,
   IncompleteDimensions = 36055,
-  Unsupported = 36061,
+  Unsupported = 36061
 }
 
 export const enum PixelFormat {
   Alpha = 6406,
   RGB = 6407,
-  RGBA = 6408,
+  RGBA = 6408
 }
 
 export const enum PixelDataType {
@@ -108,7 +108,7 @@ export const enum PixelDataType {
   UnsignedShort_4_4_4_4 = 32819,
   /** 5 red bits, 5 green bits, 5 blue bits, 1 alpha bit */
   UnsignedShort_5_5_5_1 = 32820,
-  Float = 5126,
+  Float = 5126
 }
 
 export const enum UniformType {
@@ -129,7 +129,7 @@ export const enum UniformType {
   Mat3 = 35675,
   Mat4 = 35676,
   Sampler2D = 35678,
-  SamplerCube = 35680,
+  SamplerCube = 35680
 }
 
 export const enum AttributeType {
@@ -139,7 +139,7 @@ export const enum AttributeType {
   Float4 = 35666,
   Mat2 = 35674,
   Mat3 = 35675,
-  Mat4 = 35676,
+  Mat4 = 35676
 }
 
 export const enum ProgramParameter {
@@ -148,22 +148,22 @@ export const enum ProgramParameter {
   ValidateStatus = 35715,
   AttachedShaders = 35717,
   ActiveUniforms = 35718,
-  ActiveAttributes = 35721,
+  ActiveAttributes = 35721
 }
 
 export const enum ShaderType {
   FragmentShader = 35632,
-  VertexShader = 35633,
+  VertexShader = 35633
 }
 
 export const enum ShaderParameter {
   DeleteStatus = 35712,
-  CompileStatus = 35713,
+  CompileStatus = 35713
 }
 
 export const enum TextureType {
   Texture2D = 3553,
-  CubeMap = 34067,
+  CubeMap = 34067
 }
 
 export const enum CubeMapFace {
@@ -172,7 +172,7 @@ export const enum CubeMapFace {
   TextureCubeMapPositiveY = 34071,
   TextureCubeMapNegativeY = 34072,
   TextureCubeMapPositiveZ = 34073,
-  TextureCubeMapNegativeZ = 34074,
+  TextureCubeMapNegativeZ = 34074
 }
 
 export const enum TextureTarget {
@@ -182,7 +182,7 @@ export const enum TextureTarget {
   TextureCubeMapPositiveY = 34071,
   TextureCubeMapNegativeY = 34072,
   TextureCubeMapPositiveZ = 34073,
-  TextureCubeMapNegativeZ = 34074,
+  TextureCubeMapNegativeZ = 34074
 }
 
 export const enum TextureUnit {
@@ -217,7 +217,7 @@ export const enum TextureUnit {
   Texture28 = 34012,
   Texture29 = 34013,
   Texture30 = 34014,
-  Texture31 = 34015,
+  Texture31 = 34015
 }
 
 export const enum TextureInternalFormat {
@@ -229,7 +229,7 @@ export const enum TextureInternalFormat {
   DepthComponent = 6402,
   DepthStencil = 34041,
   SRGB = 35904,
-  SRGBAlpha = 35906,
+  SRGBAlpha = 35906
 }
 
 export const enum TextureTexelDataType {
@@ -245,11 +245,11 @@ export const enum TextureTexelDataType {
   UnsignedInt = 5125,
   UnsignedInt_24_8 = 34042,
   Float = 5126,
-  HalfFloat = 36193,
+  HalfFloat = 36193
 }
 
 export const enum RenderbufferType {
-  Renderbuffer = 36161,
+  Renderbuffer = 36161
 }
 
 export const enum RenderbufferInternalFormat {
@@ -263,7 +263,7 @@ export const enum RenderbufferInternalFormat {
   DepthComponent16 = 33189,
   /** 8 stencil bits. */
   StencilIndex8 = 36168,
-  DepthStencil = 34041,
+  DepthStencil = 34041
 }
 
 export const enum RenderbufferParameter {
@@ -275,13 +275,13 @@ export const enum RenderbufferParameter {
   BlueSize = 36178,
   AlphaSize = 36179,
   DepthSize = 36180,
-  StencilSize = 36181,
+  StencilSize = 36181
 }
 
 export const enum FramebufferAttachmentType {
   ColorAttachment0 = 36064,
   DepthAttachment = 36096,
-  StencilAttachment = 36128,
+  StencilAttachment = 36128
 }
 
 export const enum FramebufferAttachmentParameter {
@@ -297,13 +297,13 @@ export const enum FramebufferAttachmentParameter {
   BlueSize = 33300,
   AlphaSize = 33301,
   DepthSize = 33302,
-  StencilSize = 33303,
+  StencilSize = 33303
 }
 
 export const enum FramebufferAttachmentObjectType {
   Renderbuffer = 36161,
   Texture = 5890,
-  None = 0,
+  None = 0
 }
 
 export const enum FramebufferAttachmentComponentType {
@@ -311,12 +311,12 @@ export const enum FramebufferAttachmentComponentType {
   Int = 5124,
   UnsignedInt = 5125,
   SignedNormalized = 36764,
-  UnsignedNormalized = 35863,
+  UnsignedNormalized = 35863
 }
 
 export const enum FramebufferAttachmentColorEncoding {
   Linear = 9729,
-  SRGB = 35904,
+  SRGB = 35904
 }
 
 export const enum StencilOperation {
@@ -341,7 +341,7 @@ export const enum StencilOperation {
    */
   DecrementWrap = 34056,
   /** Inverts the current stencil buffer value bitwise. */
-  Invert = 5386,
+  Invert = 5386
 }
 
 export const enum StencilFunction {
@@ -360,23 +360,23 @@ export const enum StencilFunction {
   /** Pass if (ref & mask) >= (stencil & mask). */
   GreaterOrEqual = 518,
   /** Never pass. */
-  Always = 519,
+  Always = 519
 }
 
 export const enum WindingOrientation {
   Clockwise = 2304,
-  CounterClockwise = 2305,
+  CounterClockwise = 2305
 }
 
 export const enum HintMode {
   DontCare = 4352,
   Fastest = 4353,
-  Nicest = 4354,
+  Nicest = 4354
 }
 
 export const enum ColorspaceConversionMode {
   BrowserDefault = 37444,
-  None = 0,
+  None = 0
 }
 
 export const enum ContextParameter {
@@ -470,5 +470,5 @@ export const enum ContextParameter {
   Vendor = 7936,
   Version = 7938,
   VertexArrayBinding = 34229,
-  Viewport = 2978,
+  Viewport = 2978
 }
