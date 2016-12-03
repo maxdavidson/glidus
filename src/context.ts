@@ -9,7 +9,7 @@ import Program from './program';
 import Renderbuffer from './renderbuffer';
 import Shader, { FragmentShader, VertexShader } from './shader';
 import Texture, { CubeMap, Texture2D } from './texture';
-import { FixedArray, FixedFloat32Array, FixedInt32Array, createDebugContext } from './utils';
+import { createDebugContext, FixedArray, FixedFloat32Array, FixedInt32Array } from './utils';
 import VertexArray from './vertex-array';
 
 export interface ContextOptions {

@@ -1,7 +1,7 @@
 import Buffer from './buffer';
 import Context from './context';
 import { BufferDataType, BufferType, ContextParameter } from './enums';
-import { ObjectOf, getBufferDataTypeSize } from './utils';
+import { getBufferDataTypeSize, ObjectOf } from './utils';
 
 export default class VertexArray {
 
