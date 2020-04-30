@@ -37,7 +37,7 @@
     "npm": ">=2.16.9"
   },
   "dependencies": {
-    "@types/webgl-ext": "0.0.27"
+    "@types/webgl-ext": "0.0.30"
   },
   "devDependencies": {
     "ava": "^0.16.0",
